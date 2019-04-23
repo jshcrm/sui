@@ -1,9 +1,8 @@
 FROM nginx:alpine
-LABEL maintainer="Jeroen Pardon"
+LABEL maintainer="Joshua Crim"
 
 RUN apk add nano
 
-RUN rm -rf /usr/share/nginx/html
-COPY . /usr/share/nginx/html
+RUN git clone git@github.com:jshcrm/sui.git && cp ./sui/* /usr/share/nginx/html
 
 EXPOSE 80
