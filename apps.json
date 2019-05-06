@@ -1,11 +1,15 @@
 {
     "apps" : [
-        {"name":"Nextcloud","url":"cloud.jshcrm.com","icon":"weather-cloudy"},
-        {"name":"Filestash","url":"cloud.example.com","icon":"package"},
-        {"name":"Ombi","url":"request.example.com","icon":"file-find-outline"},
-        {"name":"Pi-hole","url":"pihole.example.com","icon":"do-not-disturb"},
-        {"name":"Plex","url":"play.example.com","icon":"plex"},
-        {"name":"Portainer","url":"port1.example.com","icon":"docker"},
-        {"name":"Stackedit","url":"md.example.com","icon":"markdown"}
+        {"name":"Nextcloud","url":"cloud.jshcrm.dev","icon":"weather-cloudy"},
+        {"name":"Github","url":"https://github.com","icon":"github"},
+        {"name":"Slack","url":"https://titaneng.slack.com","icon":"slack"},
+        {"name":"Jira","url":"https://titanarmor.atlassian.net","icon":"jira"},
+        {"name":"Bitbucket","url":"https://bitbucket.org/titanarmor/servcies/src/master/","icon":"bitbucket"},
+        {"name":"Sentry","url":"https://sentry.agile.st/titan","icon":"sentry"},
+        {"name":"Timecard","url":"https://system.titanarmor.com","icon":"chart-timeline"},
+        {"name":"AppleFCU","url":"https://applefcu.org","icon":"bank"},
+        {"name":"ProtonMail","url":"https://mail.protonmail.com/login","icon":"email"},
+        {"name":"Digital Ocean","url":"https://cloud.digitalocean.com/projects","icon":"weather-sunset-down"},
+        {"name":"Duplicati","url":"https://backups.jshcrm.dev","icon":"content-duplicate"},
     ]
 }
