@@ -1,7 +1,5 @@
 {
     "apps" : [
-        {"name":"Nextcloud","url":"cloud.jshcrm.dev","icon":"weather-cloudy"},
-        {"name":"Github","url":"https://github.com","icon":"github"},
         {"name":"Slack","url":"https://titaneng.slack.com","icon":"slack"},
         {"name":"Jira","url":"https://titanarmor.atlassian.net","icon":"jira"},
         {"name":"Bitbucket","url":"https://bitbucket.org/titanarmor/servcies/src/master/","icon":"bitbucket"},
@@ -9,7 +7,9 @@
         {"name":"Timecard","url":"https://system.titanarmor.com","icon":"chart-timeline"},
         {"name":"AppleFCU","url":"https://applefcu.org","icon":"bank"},
         {"name":"ProtonMail","url":"https://mail.protonmail.com/login","icon":"email"},
+        {"name":"Github","url":"https://github.com","icon":"github"},
         {"name":"Digital Ocean","url":"https://cloud.digitalocean.com/projects","icon":"weather-sunset-down"},
+        {"name":"Nextcloud","url":"cloud.jshcrm.dev","icon":"weather-cloudy"},
         {"name":"Duplicati","url":"https://backups.jshcrm.dev","icon":"content-duplicate"}
     ]
 }
