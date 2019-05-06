@@ -10,6 +10,6 @@
         {"name":"AppleFCU","url":"https://applefcu.org","icon":"bank"},
         {"name":"ProtonMail","url":"https://mail.protonmail.com/login","icon":"email"},
         {"name":"Digital Ocean","url":"https://cloud.digitalocean.com/projects","icon":"weather-sunset-down"},
-        {"name":"Duplicati","url":"https://backups.jshcrm.dev","icon":"content-duplicate"},
+        {"name":"Duplicati","url":"https://backups.jshcrm.dev","icon":"content-duplicate"}
     ]
 }
