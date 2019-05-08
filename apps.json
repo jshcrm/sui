@@ -1,15 +1,15 @@
 {
     "apps" : [
-        {"name":"Slack","url":"https://titaneng.slack.com","icon":"slack"},
-        {"name":"Jira","url":"https://titanarmor.atlassian.net","icon":"jira"},
-        {"name":"Bitbucket","url":"https://bitbucket.org/titanarmor/servcies/src/master/","icon":"bitbucket"},
-        {"name":"Sentry","url":"https://sentry.agile.st/titan","icon":"alert-circle"},
-        {"name":"Timecard","url":"https://system.titanarmor.com","icon":"chart-timeline"},
-        {"name":"AppleFCU","url":"https://applefcu.org","icon":"bank"},
-        {"name":"ProtonMail","url":"https://mail.protonmail.com/login","icon":"email"},
-        {"name":"Github","url":"https://github.com","icon":"github-circle"},
-        {"name":"Digital Ocean","url":"https://cloud.digitalocean.com/projects","icon":"weather-sunset-down"},
+        {"name":"Slack","url":"titaneng.slack.com","icon":"slack"},
+        {"name":"Jira","url":"titanarmor.atlassian.net","icon":"jira"},
+        {"name":"Bitbucket","url":"bitbucket.org/titanarmor/servcies/src/master/","icon":"bitbucket"},
+        {"name":"Sentry","url":"sentry.agile.st/titan","icon":"alert-circle"},
+        {"name":"Timecard","url":"system.titanarmor.com","icon":"chart-timeline"},
+        {"name":"AppleFCU","url":"applefcu.org","icon":"bank"},
+        {"name":"ProtonMail","url":"mail.protonmail.com/login","icon":"email"},
+        {"name":"Github","url":"github.com","icon":"github-circle"},
+        {"name":"Digital Ocean","url":"cloud.digitalocean.com/projects","icon":"weather-sunset-down"},
         {"name":"Nextcloud","url":"cloud.jshcrm.dev","icon":"weather-cloudy"},
-        {"name":"Duplicati","url":"https://backups.jshcrm.dev","icon":"content-duplicate"}
+        {"name":"Duplicati","url":"backups.jshcrm.dev","icon":"content-duplicate"}
     ]
 }
