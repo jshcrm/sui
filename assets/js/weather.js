@@ -1,5 +1,6 @@
 $(document).ready(function() {
   window.getCurrentWeatherCondition = function(lat, lng) {
+    console.log('running weather condition')
     var url = corsUrl + 'https://api.darksky.net/forecast/' + darkSkyAPIKey + '/' + lat + ',' + lng;
     var req = new Request(url);
 
@@ -116,4 +117,4 @@ $(document).ready(function() {
       document.getElementById("weatherForecast").appendChild(node);
     }
   }
-}
+});
