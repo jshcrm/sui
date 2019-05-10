@@ -1,7 +1,7 @@
 $(document).ready(function() {
   window.getCurrentWeatherCondition = function(lat, lng) {
     console.log('running weather condition')
-    var url = corsUrl + 'https://api.darksky.net/forecast/' + darkSkyAPIKey + '/' + lat + ',' + lng;
+    var url = 'https://cors-anywhere.herokuapp.com/' + 'https://api.darksky.net/forecast/' + darkSkyAPIKey + '/' + lat + ',' + lng;
     var req = new Request(url);
 
     fetch(req)
