@@ -1,35 +1,40 @@
-var data_links = "links.json";
-  
+const data_links = "links.json";
 $(document).ready(function(){
-  $.getJSON(data_links,
-    function (data) {
-      var mysource = $('#links-template').html();
-      var mytemplate = Handlebars.compile(mysource);
-      var myresult = mytemplate(data)
+  $.getJSON(data_links, data => {
+      const mysource = $('#links-template').html();
+      const mytemplate = Handlebars.compile(mysource);
+      const myresult = mytemplate(data)
       $('#links').html(myresult);
   });
 });
 
-var data_apps = "apps.json";
-  
+const data_apps = "apps.json";
 $(document).ready(function(){
-  $.getJSON(data_apps,
-    function (data) {
-      var mysource = $('#apps-template').html();
-      var mytemplate = Handlebars.compile(mysource);
-      var myresult = mytemplate(data)
+  $.getJSON(data_apps, data => {
+      const mysource = $('#apps-template').html();
+      const mytemplate = Handlebars.compile(mysource);
+      const myresult = mytemplate(data)
       $('#apps').html(myresult);
   });
 });
 
-var data_providers = "providers.json";
-  
+const data_providers = "providers.json";
 $(document).ready(function(){
-  $.getJSON(data_providers,
-    function (data) {
-      var mysource = $('#providers-template').html();
-      var mytemplate = Handlebars.compile(mysource);
-      var myresult = mytemplate(data)
+  $.getJSON(data_providers, data => {
+      const mysource = $('#providers-template').html();
+      const mytemplate = Handlebars.compile(mysource);
+      const myresult = mytemplate(data)
       $('#providers').html(myresult);
+  });
+});
+
+const data_weather = "weather.json"
+$(document).ready(function(){
+  $.getJSON(data_weather, data => {
+      getCurrentWeatherCondition(data.latitude, data.longitude)
+      const mysource = $('#weather-template').html();
+      const mytemplate = Handlebars.compile(mysource);
+      const myresult = mytemplate(data)
+      $('#weather').html(myresult);
   });
 });
