@@ -31,10 +31,12 @@ $(document).ready(function(){
 const data_weather = "weather.json"
 $(document).ready(function(){
   $.getJSON(data_weather, data => {
+    console.log('setting weather template')
       const mysource = $('#weather-template').html();
       const mytemplate = Handlebars.compile(mysource);
       const myresult = mytemplate(data)
       $('#weather').html(myresult);
+      console.log('template set, creating weather')
       getCurrentWeatherCondition(data.latitude, data.longitude)
   });
 });
