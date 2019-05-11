@@ -55,7 +55,7 @@ h1{
 h2{
 	font-size: 16px;
 	height: 30px;
-	
+
 }
 
 h3{
@@ -267,19 +267,9 @@ table a{
 	line-height: 2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#weather {
+	width: 400px
+}
 
 /* MODAL */
 
@@ -467,7 +457,7 @@ table a{
 		margin-right: auto;
 		width: 90%;
 	}
-    
+
 	#apps_loop{
 		grid-template-columns: 1fr 1fr 1fr;
 		width: 100vw;
@@ -536,7 +526,7 @@ table a{
 		font-size: 2em;
 		line-height: 2.5rem;
 	}
-    
+
 	#links_loop{
 		display: grid;
 		flex-wrap: nowrap;
