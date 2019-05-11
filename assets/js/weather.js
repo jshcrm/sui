@@ -1,3 +1,5 @@
+const darkSkyAPIKey = "364dbd3e44e68bdf5cd47e9842e07e5c"
+
 $(document).ready(function() {
   window.getCurrentWeatherCondition = function(lat, lng) {
     console.log('running weather condition')
