@@ -44,6 +44,9 @@
     max-width: 100%;
 }
 
+.weather-forecast .weather-day {
+    width: 20%;
+}
 
 .forecast .day {
     display: block;
