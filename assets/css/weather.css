@@ -44,7 +44,7 @@
     max-width: 100%;
 }
 
-.weather-forecast .weather-day {
+#weatherForecast .weather-day {
     width: 20%;
 }
 
