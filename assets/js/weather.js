@@ -78,8 +78,7 @@ $(document).ready(function() {
       // console.log("Weather Date: " + weatherDate);
 
       var node = document.createElement("div");
-      node.setAttribute("class", "weather-day")
-      node.setAttribute("class", "col");
+      node.setAttribute("class", "col weather-day");
 
       var outerSpan = document.createElement("span");
       outerSpan.setAttribute("class", "day");
