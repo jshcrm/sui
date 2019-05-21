@@ -2,7 +2,7 @@
     "apps" : [
         {"name":"Slack","url":"titaneng.slack.com","icon":"slack"},
         {"name":"Jira","url":"titanarmor.atlassian.net","icon":"jira"},
-        {"name":"Bitbucket","url":"bitbucket.org/titanarmor/servcies/src/master/","icon":"bitbucket"},
+        {"name":"Bitbucket","url":"bitbucket.org/titanarmor/services/src/master/","icon":"bitbucket"},
         {"name":"Sentry","url":"sentry.agile.st/titan","icon":"alert-circle"},
         {"name":"Timecard","url":"system.titanarmor.com","icon":"chart-timeline"},
         {"name":"AppleFCU","url":"applefcu.org","icon":"bank"},
