@@ -1,7 +1,10 @@
 
 .card {
+    display: inline-block;
 	border-radius: 8px;
-	border-color: #dadce0;
+    border-color: #dadce0;
+    /* float: left; */
+    max-width: 20%
 }
 
 .card .card-body {padding: 16px;}
