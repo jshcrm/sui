@@ -1,39 +1,49 @@
 {
             "bookmarks" : [
-              // {
-              //   "category": "Communicate",
-              //   "links": [
-              //     {
-              //       "name": "Discord",
-              //       "url": "https://discordapp.com/"
-              //     },
-              //     {
-              //       "name": "Gmail",
-              //       "url": "http://gmail.com"
-              //     },
-              //     {
-              //       "name": "Slack",
-              //       "url": "https://slack.com/signin"
-              //     }
-              //   ]
-              // },
-              // {
-              //   "category": "Cloud",
-              //   "links": [
-              //     {
-              //       "name": "Box",
-              //       "url": "https://box.net"
-              //     },
-              //     {
-              //       "name": "Dropbox",
-              //       "url": "https://dropbox.com"
-              //     },
-              //     {
-              //       "name": "Drive",
-              //       "url": "https://drive.google.com"
-              //     }
-              //   ]
-              // },
+              {
+                "category": "Finance",
+                "links": [
+                  {
+                    "name": "Apple FCU",
+                    "url": "https://applefcu.org"
+                  },
+                  {
+                    "name": "Charles Schwab",
+                    "url": "https://www.schwab.com"
+                  }
+                ]
+              },
+              {
+                "category": "Dev",
+                "links": [
+                  {
+                    "name": "Github",
+                    "url": "https://github.com"
+                  },
+                  {
+                    "name": "Digital Ocean",
+                    "url": "https://cloud.digitalocean.com/projects"
+                  },
+
+                  {
+                    "name": "Jira",
+                    "url": "https://titanarmor.atlassian.net"
+                  }
+                ]
+              },
+              {
+                "category": "Shopping",
+                "links": [
+                  {
+                    "name": "Amazon",
+                    "url": "https://amazon.com"
+                  },
+                  {
+                    "name": "Amazon Spain",
+                    "url": "https://amazon.es"
+                  }
+                ]
+              },
               // {
               //   "category": "Design",
               //   "links": [
@@ -51,23 +61,7 @@
               //     }
               //   ]
               // },
-              // {
-              //   "category": "Dev",
-              //   "links": [
-              //     {
-              //       "name": "Codepen",
-              //       "url": "https://codepen.io/"
-              //     },
-              //     {
-              //       "name": "Devdocs",
-              //       "url": "https://devdocs.io"
-              //     },
-              //     {
-              //       "name": "Devhints",
-              //       "url": "https://devhints.io"
-              //     }
-              //   ]
-              // },
+
               // {
               //   "category": "Lifestyle",
               //   "links": [

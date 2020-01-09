@@ -1,8 +1,0 @@
-{
-    "providers" : [
-        {"name":"Duck Duck Go","url":"https://duckduckgo.com/?q=","prefix":"/d"},
-        {"name":"Reddit","url":"https://www.reddit.com/search?q=","prefix":"/r"},
-        {"name":"Spotify","url":"https://open.spotify.com/search/results/","prefix":"/s"},
-        {"name":"Youtube","url":"https://www.youtube.com/results?search_query=","prefix":"/y"}
-    ]
-}

@@ -1,14 +1,11 @@
 {
     "apps" : [
         {"name":"Slack","url":"titaneng.slack.com","icon":"slack"},
-        {"name":"Jira","url":"titanarmor.atlassian.net","icon":"jira"},
         {"name":"Bitbucket","url":"bitbucket.org/titanarmor/services/src/master/","icon":"bitbucket"},
+        {"name":"Clubhouse","url":"app.clubhouse.io/titanarmor","icon":"id-card"},
         {"name":"Sentry","url":"sentry.agile.st/titan","icon":"alert-circle"},
         {"name":"Timecard","url":"system.titanarmor.com","icon":"chart-timeline"},
-        {"name":"AppleFCU","url":"applefcu.org","icon":"bank"},
-        {"name":"ProtonMail","url":"mail.protonmail.com/login","icon":"email"},
-        {"name":"Github","url":"github.com","icon":"github-circle"},
-        {"name":"Digital Ocean","url":"cloud.digitalocean.com/projects","icon":"weather-sunset-down"},
+        {"name":"ProtonMail","url":"mail.protonmail.com/inbox","icon":"email"},
         {"name":"Nextcloud","url":"cloud.jshcrm.dev","icon":"weather-cloudy"},
         {"name":"Duplicati","url":"backups.jshcrm.dev","icon":"content-duplicate"},
         {"name":"Vault","url":"vault.jshcrm.dev","icon":"safe"},
