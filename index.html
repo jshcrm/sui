@@ -47,23 +47,25 @@
   </section>
 
   <main id="container" class="fade">
+    <section id="header">
+      <h2 id="header_date"></h2>
+    </section>
+
     <section id="apps">
       <script type="text/handlebars-template" id="apps-template">
         {{#apps}}
-          <div class="apps_section">
-            <h3>{{category}}</h3>
-            <div id="apps_loop">
-              {{#links}}
-                <div class="apps_item">
-                  <div class="apps_icon">
-                    <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
-                  </div>
-                  <div class="apps_text">
-                    <a href="https://{{url}}">{{name}}</a>
-                  </div>
+          <h3>{{category}}</h3>
+          <div id="apps_loop">
+            {{#links}}
+              <div class="apps_item">
+                <div class="apps_icon">
+                  <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                 </div>
-              {{/links}}
-            </div>
+                <div class="apps_text">
+                  <a href="https://{{url}}">{{name}}</a>
+                </div>
+              </div>
+            {{/links}}
           </div>
         {{/apps}}
       </script>
