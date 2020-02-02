@@ -172,6 +172,10 @@ table a{
 	z-index: 1;
 }
 
+.apps_section {
+	margin-top: 50px;
+}
+
 #apps_loop{
 	border-bottom: 0px solid var(--color-text-acc);
 	display: grid;
