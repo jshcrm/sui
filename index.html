@@ -53,9 +53,10 @@
 
     <section id="apps">
       <script type="text/handlebars-template" id="apps-template">
-        <h3>Applications</h3>
-        <div id="apps_loop">
-          {{#apps}}
+        {{#apps}}
+          <h3>{{category}}</h3>
+          {{#links}}
+          <div id="apps_loop">
             <div class="apps_item">
               <div class="apps_icon">
                 <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
@@ -64,8 +65,9 @@
                 <a href="https://{{url}}">{{name}}</a>
               </div>
             </div>
-          {{/apps}}
-        </div>
+          </div>
+          {{/links}}
+        {{/apps}}
       </script>
     </section>
 

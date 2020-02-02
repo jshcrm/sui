@@ -1,14 +1,29 @@
 {
     "apps" : [
-        {"name":"Slack","url":"titaneng.slack.com","icon":"slack"},
-        {"name":"Bitbucket","url":"bitbucket.org/titanarmor/services/src/master/","icon":"bitbucket"},
-        {"name":"Clubhouse","url":"app.clubhouse.io/titanarmor","icon":"id-card"},
-        {"name":"Sentry","url":"sentry.agile.st/titan","icon":"alert-circle"},
-        {"name":"Timecard","url":"system.titanarmor.com","icon":"chart-timeline"},
-        {"name":"ProtonMail","url":"mail.protonmail.com/inbox","icon":"email"},
-        {"name":"Nextcloud","url":"cloud.jshcrm.dev","icon":"weather-cloudy"},
-        {"name":"Duplicati","url":"backups.jshcrm.dev","icon":"content-duplicate"},
-        {"name":"Vault","url":"vault.jshcrm.dev","icon":"safe"},
-        {"name":"Zenkit","url":"zenkit.com","icon":"cards-diamond"}
+        {
+            "category": "Titan Engineering",
+            "links": [
+                {"name":"Slack","url":"titaneng.slack.com","icon":"slack"},
+                {"name":"Bitbucket","url":"bitbucket.org/titanarmor/services/src/master/","icon":"bitbucket"},
+                {"name":"Clubhouse","url":"app.clubhouse.io/titanarmor","icon":"id-card"},
+                {"name":"Sentry","url":"sentry.agile.st/titan","icon":"alert-circle"},
+                {"name":"Timecard","url":"system.titanarmor.com","icon":"chart-timeline"}
+            ]
+        },
+        {
+            "category": "jshcrm.dev",
+            "links": [
+                {"name":"Nextcloud","url":"cloud.jshcrm.dev","icon":"weather-cloudy"},
+                {"name":"Duplicati","url":"backups.jshcrm.dev","icon":"content-duplicate"},
+                {"name":"Vault","url":"vault.jshcrm.dev","icon":"safe"}
+            ]
+        },
+        {
+            "category": "Productivity",
+            "links": [
+                {"name":"ProtonMail","url":"mail.protonmail.com/inbox","icon":"email"},
+                {"name":"Zenkit","url":"zenkit.com","icon":"cards-diamond"}
+            ]
+        }
     ]
 }
