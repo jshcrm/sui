@@ -4,9 +4,9 @@
             "category": "Titan Engineering",
             "links": [
                 {"name":"Slack","url":"titaneng.slack.com","icon":"slack"},
-                {"name":"Bitbucket","url":"bitbucket.org/titanarmor/services/src/master/","icon":"bitbucket"},
+                {"name":"Bitbucket","url":"bitbucket.org/titan-engineering-inc/services/src/master","icon":"bitbucket"},
                 {"name":"Clubhouse","url":"app.clubhouse.io/titanarmor","icon":"id-card"},
-                {"name":"Sentry","url":"sentry.agile.st/titan","icon":"alert-circle"},
+                {"name":"Sentry","url":"sentry.io/organizations/titan-engineering-inc","icon":"alert-circle"},
                 {"name":"Timecard","url":"system.titanarmor.com","icon":"chart-timeline"}
             ]
         },

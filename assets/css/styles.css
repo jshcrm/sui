@@ -155,7 +155,6 @@ table a{
 	grid-column-gap: 20px;
 	grid-row-gap: 3vh;
 	grid-template-columns: 1fr;
-	grid-template-rows: 8vh auto;
 	justify-items: stretch;
 	margin-left: auto;
 	margin-right: auto;
